@@ -1,0 +1,21 @@
+a.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+}
+
+a.anchor-projects {
+    top: -40px;
+}
+
+a.anchor-shop {
+    top: -40px;
+}
+
+a.anchor-about {
+    top: -40px;
+}
+
+a.anchor-contactus {
+    top: -40px;
+}

@@ -1,0 +1,247 @@
+@media screen and (max-width: 840px){
+	.mobile-hide {
+		display: none !important;
+	}
+
+	.mobile-unhide {
+		display: block !important;
+	}
+}
+
+/* SMARTPHONE OPTIMIZATION */
+.mobile-unhide{
+	display: none;
+}
+
+/* three dots */
+.threelines-header-dropdown {
+	position: absolute;
+	display: block;
+	float: left;
+	left: 10px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.threelines-header-a{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: block;
+}
+
+.threelines-header-img {
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.threelines-header-img:hover {
+	opacity: 0.50;
+	padding-top: 5px;
+}
+
+.threelines-header-dropbtn {
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	display: block;
+}
+
+.threelines-header-dropbtn:focus{
+	outline: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.threelines-header-dropdown-content {
+  left: -10px;
+  top: -10px;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  max-width: 80vw;
+  min-width: 220px;
+  height: 100vh;
+  box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.5);
+  background-color: white;
+  z-index: 15;
+}
+
+.threelines-header-dropdown-content a {
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  width: 125px;
+}
+
+/*** HEADER TAGS ***/
+
+header {
+	background: white;
+	width: 100%;
+	height: 65px;
+	margin: 0;
+	padding: 0;
+ 	top: 0;
+	left: 0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+	position: fixed;
+	z-index: 100;
+}
+
+header nav {
+	height: 100%;
+}
+
+header nav ul {
+	padding-top: 0;
+	margin-top: 0;
+	padding-right: 25px;
+	height: 100%;
+  /*overflow: hidden;  Safety first, if something drops out of the Header just activate this*/
+}
+
+header nav #navbar {
+	float: left;
+}
+
+header nav #user {
+	float: right;
+}
+
+header nav ul li {
+	display: inline;
+}
+
+#header-a {
+	padding: 22px 20px 0 20px; /* If you change the Top-Padding, you need to adjust height and a:hover */
+	text-decoration: none;
+	height: 68%; /*Added for browsers that dont support calc()*/
+	height: calc(100% - 25px);
+	float: left;
+	transition: all 200ms;
+		-webkit-transition: all 200ms;
+		-moz-transition: all 200ms;
+		-o-transition: all 200ms;
+}
+
+#header-a:hover {
+	padding-top: 27px;
+	text-decoration: none;
+	border-bottom: 3px solid #dc3545;
+	height: 60%; /*Added for browsers that dont support calc()*/
+	height: calc(100% - 27px);
+	opacity: 0.5;
+	transition: all 200ms;
+		-webkit-transition: all 200ms;
+		-moz-transition: all 200ms;
+		-o-transition: all 200ms;
+}
+
+/* navbar img */
+.profile-header-img{
+	margin: 0;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: block;
+	background-image: url(/user/assets/uploads/users/_defaultUser.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	background-color: white;
+}
+
+/* DROPDOWN */
+.profile-header-dropbtn {
+	background-color: #dc3545;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 50%;
+	display: block;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header-dropbtn:hover{
+	padding-top: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.profile-header-dropbtn:focus{
+	outline: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.profile-header-dropdown {
+  position: relative;
+  display: block;
+  float: left;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.profile-header-dropdown a:hover {
+	background-color: #ddd;
+	padding: 12px 16px;
+}
+
+
+.profile-header-dropdown-content {
+  right: 0;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.profile-header-dropdown-content a {
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  width: 125px;
+}
+.show {display: block;}
+
+/* TRANSITIONS */
+
+.transition200ms{
+	transition: all 200ms;
+		-webkit-transition: all 200ms;
+		-moz-transition: all 200ms;
+		-o-transition: all 200ms;
+}
+
+.transition200ms:hover{
+	transition: all 200ms;
+		-webkit-transition: all 200ms;
+		-moz-transition: all 200ms;
+		-o-transition: all 200ms;
+}

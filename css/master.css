@@ -1,0 +1,64 @@
+/* BASIC TAGS */
+body {
+	display: block;
+	direction: ltr;
+	border: 0;
+}
+
+html, body, footer { margin: 0; padding: 0; scroll-behavior: smooth; font-size: 16px;}
+
+html, body { text-align: left }
+
+h1, h2, h3, h4, h5, a, p { font-family: 'Open Sans', sans-serif; font-weight: 500; color: #494949; }
+
+p, a, h1 { font-size: 17px; }
+
+.fluid-div {
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1360px;
+	font-size: 1em;
+}
+.influid-half {
+	width: 50%;
+	display: inline-block;
+}
+.section:nth-child(odd) {
+	background: #f4f4f4;
+}
+.section:nth-child(odd) .fillbutton {
+	background: #f4f4f4;
+}
+.section:nth-child(odd) .fillbutton:hover {
+	background: #dc3545;
+	color: white;
+}
+
+/* OFTEN USED STYLE CLASSES */
+.fillbutton {
+	background: white;
+	color: #dc3545;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	border: 1px solid #dc3545;
+
+	text-decoration: none;
+	transition: all 300ms;
+		-webkit-transition: all 300ms;
+		-moz-transition: all 300ms;
+		-o-transition: all 300ms;
+}
+.fillbutton:hover {
+	background: #dc3545;
+	color: white;
+}
+.signature-color {
+	color: #dc3545;
+}
+
+.padding10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
