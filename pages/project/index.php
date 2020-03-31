@@ -119,7 +119,7 @@ if (isset($_GET['project_id'])) {
 
 							<div id="Changes" class="tabcontent scrollview">
 								<div class="changelog-item">
-									
+
 								</div>
 							</div>
 
@@ -131,7 +131,7 @@ if (isset($_GET['project_id'])) {
 								
 							</div>
 
-							<div id="Comments" class="tabcontent">
+							<div id="Comments" class="tabcontent scrollview">
 								
 							</div>
 
@@ -150,18 +150,31 @@ if (isset($_GET['project_id'])) {
 							</div>
 								
 							<div class="sidebar-item">
-								<h3>Source Repository</h3>
-								<p>Github</p>
-								<a href="https://github.com/Sourcebird/Homepage">/Sourcebird/Homepage</a>
+								<div class="sourcerepo-wrapper">
+									<h3>Source Repository</h3>
+									<p>Github</p>
+									<a href="https://github.com/Sourcebird/Homepage">/Sourcebird/Homepage</a>
+								</div>
 							</div>
 								
 							<div class="sidebar-item">
 								<h3>Involved People</h3>
-								<div class="involved-team">
+								<div class="team-wrapper">
+
 									<div class="team-item">
-										<img style="width: 45px; height: 45px; padding-left: 10px;" src="https://placehold.it/125x125" alt="">
-										<p>Dimitri</p>
+										<a class="team-link" href="https://github.com/sourcebird-dimitri" target="_BLANK">
+											<img src="https://placehold.it/125x125" alt="">
+											<p><span class="signature-color">[SB]</span>Dimitri</p>
+										</a>
 									</div>
+
+									<div class="team-item">
+										<a class="team-link" href="https://github.com/sourcebird-marvin" target="_BLANK">
+											<img src="https://placehold.it/125x125" alt="">
+											<p><span class="signature-color">[SB]</span>Marvin</p>
+										</a>
+									</div>
+
 								</div>
 							</div>
 						</div>

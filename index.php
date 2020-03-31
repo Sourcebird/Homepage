@@ -77,9 +77,9 @@
 					<div class="project-item">
 						<div class="project-item-container">
 							<div class="project-title no-spacing">
-								<h3>Project Name</h3>
+								<h3>SourceBird Homepage</h3>
 								<p class="item-date">
-									01/01/2020  |   <a class="item-tag tag-plang plang-csharp" href="#" target="_blank">C#</a>
+									04/03/2020  |   <a class="item-tag tag-plang plang-html" href="#" target="_blank">HTML</a>
 								</p>
 							</div>
 							<div class="project-thumbnail">
@@ -88,8 +88,8 @@
 							</div>
 							<div class="project-description no-spacing">
 								<p>
-									Dolorum vel reiciendis velit id iure atque assumenda aut esse eos tempore nulla, 
-									expedita natus. Eos quod ab neque ea tempore optio.
+									The source-repo for our homepage.
+									Explore changes we make to our website before they go live or grab the sourcecode of the latest or older versions!
 								</p>
 							</div>
 							<div class="project-link">
@@ -101,7 +101,7 @@
 					<div class="project-item">
 						<div class="project-item-container">
 							<div class="project-title no-spacing">
-								<h3>Project Name</h3>
+								<h3>E.M.M.A.</h3>
 								<p class="item-date">
 									01/01/2020  |   <a class="item-tag tag-plang plang-csharp" href="#" target="_blank">C#</a>
 								</p>
@@ -111,9 +111,8 @@
 									width="300" height="340">
 							</div>
 							<div class="project-description no-spacing">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-									Dolorum vel reiciendis velit id iure atque assumenda aut esse eos tempore nulla, 
-									expedita natus.
+								<p>EMMA (Elder Scrolls Online Multi Management Application or former called DesoLib) is a tool written by Dimitri back in his ESO days 
+									to keep track of Dungeon/Trial Achievements.
 								</p>
 							</div>
 							<div class="project-link">
@@ -191,7 +190,7 @@
 					<h3><span class="signature-color">We</span> are SourceBird</h3>
 					<p>Our goal with SourceBird and the projects we create under this name is to improve our Skills and share our experiences with 
 						<span class="signature-color">you</span> so everyone can benefit from our progress and learn how to programm without
-						having to pay to for tutorials or semi-free courses.</p>
+						having to pay for tutorials or semi-free courses.</p>
 					<br>
 					<p>To shorten it we want to share Software and Source-Codes for <span class="signature-color">free</span></p>
 					<br>

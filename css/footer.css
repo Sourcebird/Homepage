@@ -14,7 +14,7 @@ footer {
 	padding: 0 10px;
 }
 .footer-content-wrapper {
-	border-top: 1px solid gray;
+	border-top: 1px solid #cccccc;
 	width: 100%;
 }
 .footer-content-wrapper ul {
