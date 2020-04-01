@@ -83,7 +83,7 @@ function check_verified() {
 
 function force_login($email) {
 
-    require dirname(__FILE__).'\../assets/setup/db.inc.php';
+    require realpath($_SERVER['DOCUMENT_ROOT']).'/user/assets/setup/db.inc.php';
     
     $sql = "SELECT * FROM users WHERE email=?;";
     $stmt = mysqli_stmt_init($conn);
@@ -139,7 +139,7 @@ function check_remember_me() {
 
     
 
-    require dirname(__FILE__).'\../setup/db.inc.php';
+    realpath($_SERVER['DOCUMENT_ROOT']).'/user/assets/setup/db.inc.php';
     
     if (empty($_SESSION['auth']) && !empty($_COOKIE['rememberme'])) {
         

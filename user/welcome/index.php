@@ -1,7 +1,7 @@
 <?php
 
 define('TITLE', "Welcome");
-include dirname(__FILE__).'\../../components/header.php';
+require realpath($_SERVER['DOCUMENT_ROOT']).'/components/header.php';
 
 ?>
 

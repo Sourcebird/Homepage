@@ -1,7 +1,7 @@
 <?php
 
 define('TITLE', "Profile");
-include dirname(__FILE__).'\../../components/header.php';
+require realpath($_SERVER['DOCUMENT_ROOT']).'/components/header.php';
 check_verified();
 
 ?>

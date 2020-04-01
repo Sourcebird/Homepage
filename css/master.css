@@ -24,6 +24,7 @@ p, a, h1 { font-size: 17px; }
 	width: 50%;
 	display: inline-block;
 }
+
 .section:nth-child(odd) {
 	background: #f4f4f4;
 }

@@ -3,10 +3,10 @@
 
   session_start();
 
-  require dirname(__FILE__).'\../user/assets/setup/env.php';
-  require dirname(__FILE__).'\../user/assets/setup/db.inc.php';
-  require dirname(__FILE__).'\../user/assets/includes/auth_functions.php';
-  require dirname(__FILE__).'\../user/assets/includes/security_functions.php';
+  require realpath($_SERVER['DOCUMENT_ROOT']).'/user/assets/setup/env.php';
+  require realpath($_SERVER['DOCUMENT_ROOT']).'/user/assets/setup/db.inc.php';
+  require realpath($_SERVER['DOCUMENT_ROOT']).'/user/assets/includes/auth_functions.php';
+  require realpath($_SERVER['DOCUMENT_ROOT']).'/user/assets/includes/security_functions.php';
 
   if (isset($_SESSION['auth']))
     $_SESSION['expire'] = ALLOWED_INACTIVITY_TIME;

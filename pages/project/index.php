@@ -72,6 +72,7 @@ if (isset($_GET['project_id'])) {
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title><?php echo $project['name'] ?> | SourceBird </title>
 		
 		<link rel="stylesheet" type="text/css" href="../../css/master.css">
@@ -82,19 +83,27 @@ if (isset($_GET['project_id'])) {
 	<body">
 		
 		<main class="project-page">
-			<div class="div-wrapper" style="padding-top: 90px; background: white;">
-				<div class="fluid-div padding10">
-					<div class="project-head">
-						<div class="project-logo">
-							<img src="<?php echo $project['img'] ?>" alt="img" style="display: inline-block; width: 120px; height: 120px">
-						</div>
-						<div class="project-data" style="display: inline-block; height: 120px; vertical-align: baseline;">
-							<h2><?php echo $project['name'] ?></h2>
-							<p>By <a href="<?php echo $project['creator_profile_url'] ?>" target="_blank" class="signature-color"><?php echo $project['creator'] ?></a> | last updated <?php echo $project['updated_at'] ?></p>
-							<p><?php echo $project['short_description'] ?></p>
-						</div>
+			<div class="div-wrapper head-div">
+				<div class="fluid-div project-head" style="background: black;">
+					<div class="project-logo">
+						<img src="<?php echo $project['img'] ?>" alt="img" style="display: inline-block; width: 120px; height: 120px">
 					</div>
-					
+					<div class="project-data" style="display: inline-block; height: 120px; vertical-align: baseline;">
+						<h2><?php echo $project['name'] ?></h2>
+						<p>By <a href="<?php echo $project['creator_profile_url'] ?>" target="_blank" class="signature-color"><?php echo $project['creator'] ?></a> | last updated <?php echo $project['updated_at'] ?></p>
+						<p><?php echo $project['short_description'] ?></p>
+					</div>
+				</div>
+			</div>
+
+			<div id="quicknav-panel">
+				<div class="quicknav-item">
+					<h3>Github</h3>
+					<a href="https://github.com/Sourcebird/Homepage">SourceBird/Homepage</a>
+				</div>
+				<div class="quicknav-item">
+					<h3>Direct Download</h3>
+					<a href="https://github.com/Sourcebird/Homepage">SourceBird/Homepage</a>
 				</div>
 			</div>
 
@@ -108,6 +117,7 @@ if (isset($_GET['project_id'])) {
 								<button class="tablinks" onclick="openTab(event, 'Bugs')">Bugs</button>
 								<button class="tablinks" onclick="openTab(event, 'Downloads')">Downloads</button>
 								<button class="tablinks" onclick="openTab(event, 'Comments')">Comments</button>
+								<button class="tablinks" onclick="openTab(event, 'Team')">Team</button>
 							</div>
 
 							<div id="Overview" class="tabcontent">
@@ -135,47 +145,12 @@ if (isset($_GET['project_id'])) {
 								
 							</div>
 
+							<div id="Team" class="tabcontent">
+
+							</div>
+
 							<div id="Template" class="tabcontent">
 
-							</div>
-						</div>
-						
-						<div class="sidebar wrapper-item">
-							<div class="sidebar-item">
-								<h3>Download Latest</h3>
-								<div class="download-wrapper">
-									<a class="download-item fillbutton" href="" target="_BLANK">DIRECT</a>
-									<a class="download-item fillbutton" href="" target="_BLANK">ALL</a>
-								</div>
-							</div>
-								
-							<div class="sidebar-item">
-								<div class="sourcerepo-wrapper">
-									<h3>Source Repository</h3>
-									<p>Github</p>
-									<a href="https://github.com/Sourcebird/Homepage">/Sourcebird/Homepage</a>
-								</div>
-							</div>
-								
-							<div class="sidebar-item">
-								<h3>Involved People</h3>
-								<div class="team-wrapper">
-
-									<div class="team-item">
-										<a class="team-link" href="https://github.com/sourcebird-dimitri" target="_BLANK">
-											<img src="https://placehold.it/125x125" alt="">
-											<p><span class="signature-color">[SB]</span>Dimitri</p>
-										</a>
-									</div>
-
-									<div class="team-item">
-										<a class="team-link" href="https://github.com/sourcebird-marvin" target="_BLANK">
-											<img src="https://placehold.it/125x125" alt="">
-											<p><span class="signature-color">[SB]</span>Marvin</p>
-										</a>
-									</div>
-
-								</div>
 							</div>
 						</div>
 

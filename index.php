@@ -17,7 +17,7 @@
 	<!------------- BODY ------------->
 	<body>
 		<!------------- HEADER ------------->
-		<?php include_once 'components/header.php'; ?>
+		<?php require realpath($_SERVER['DOCUMENT_ROOT']).'/components/header.php';?>
 
 
 		<!------------- HOME-SECTION ------------->
@@ -79,7 +79,7 @@
 							<div class="project-title no-spacing">
 								<h3>SourceBird Homepage</h3>
 								<p class="item-date">
-									04/03/2020  |   <a class="item-tag tag-plang plang-html" href="#" target="_blank">HTML</a>
+									04 March 2020  |   <a class="item-tag tag-plang plang-html" href="#" target="_blank">PHP</a>
 								</p>
 							</div>
 							<div class="project-thumbnail">

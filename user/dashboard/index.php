@@ -1,7 +1,7 @@
 <?php
 
 define('TITLE', "Home");
-include '../assets/layouts/header.php';
+require realpath($_SERVER['DOCUMENT_ROOT']).'/components/header.php';
 check_verified();
 
 ?>
