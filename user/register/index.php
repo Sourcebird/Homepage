@@ -45,7 +45,7 @@ check_logged_out();
                     </sub>
                 </div>
 
-                <h6 class="h3 mt-3 mb-3 font-weight-normal text-muted text-center">Create an Account</h6>
+                <h6 class="header-description paddingtop15">Create your Account</h6>
 
                 <div class="text-center mb-3">
                     <small class="text-success font-weight-bold">
@@ -98,8 +98,8 @@ check_logged_out();
                     </sub>
                 </div>
 
-                <hr>
-                <span class="h5 mb-3 font-weight-normal text-muted text-center">Optional</span>
+                <hr class="seperator" >
+                <span class="textspan">Optional</span>
                 <br><br>
 
                 <div class="form-group">
@@ -122,32 +122,7 @@ check_logged_out();
                     <textarea type="text" id="bio" name="bio" class="form-input" placeholder="Tell us about yourself..."></textarea>
                 </div>
 
-                <div class="checkbox-genderselect-container">
-                    <label>Gender</label>
-
-                    <div class="checkbox-genderselect-wrapper">
-						<div class="checkbox-genderselect-item">
-							<input type="radio" id="male" name="gender" class="checkbox-genderselect" value="m">
-							<label class="custom-control-label" for="male">Male</label>
-						</div>
-                    
-						<div class="checkbox-genderselect-group-inner">
-							<input type="radio" id="female" name="gender" class="checkbox-genderselect" value="f">
-							<label class="custom-control-label" for="female">Female</label>
-						</div>
-                    </div>
-                </div>
-
                 <button class="btn-submit-form" type="submit" name='signupsubmit'>Signup</button>
-
-                <p class="mt-4 mb-3 text-muted text-center">
-                    <a href="https://github.com/msaad1999/PHP-Login-System" target="_blank">
-                        Login System
-                    </a> | 
-                    <a href="https://github.com/msaad1999/PHP-Login-System/blob/master/LICENSE" target="_blank">
-                        MIT License
-                    </a>
-                </p>
 
             </form>
 

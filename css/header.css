@@ -127,6 +127,11 @@ header nav ul li {
 	display: inline;
 }
 
+.signup:hover {
+	background: #dc3545;
+	color: white;
+}
+
 #header-a {
 	padding: 22px 20px 0 20px; /* If you change the Top-Padding, you need to adjust height and a:hover */
 	text-decoration: none;
@@ -145,7 +150,6 @@ header nav ul li {
 	border-bottom: 3px solid #dc3545;
 	height: 60%; /*Added for browsers that dont support calc()*/
 	height: calc(100% - 27px);
-	opacity: 0.5;
 	transition: all 200ms;
 		-webkit-transition: all 200ms;
 		-moz-transition: all 200ms;

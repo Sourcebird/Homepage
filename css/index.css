@@ -108,7 +108,7 @@ main div {
 	text-align: center;
 }
 .stat-item {
-	width: calc(100% / 3);
+	width: calc(100% / 4);
 	height: 100%;
 	display: inline-block;
 }
@@ -376,6 +376,7 @@ input[type=submit] {
 	background: white;
 	color: #494949;
 	
+	appearance: none;
 	-webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -395,8 +396,13 @@ textarea {
 	height: auto;
 }
 select {
-	padding-left: 1px;
 	background: white;
+
+	appearance: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+	-o-appearance: none;
 }
 option {
 	color: #494949;
@@ -405,6 +411,7 @@ option {
 .agreement-text {
 	font-family: "Open Sans", sans-serif;
 	font-size: 0.8rem;
+	line-height: 1.75rem;
 	margin: 5px auto;
 }
 .agreement-text a {
@@ -412,6 +419,13 @@ option {
 	font-family: "Open Sans", sans-serif;
 	font-size: 0.8rem;
 	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: transparent;
+
+	transition: all 300ms;
+}
+.agreement-text a:hover {
+	text-decoration-color: #dc3545!important;
 }
 
 @media screen and (max-width: 579px) {

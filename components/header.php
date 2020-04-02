@@ -57,7 +57,7 @@
         		</ul>
         		<ul id="user">
 				<?php if (!check_logged_in_boolean()) { ?>
-						<li id='signup'><a id="header-a" href='<?php echo $realPath ?>/user/register/'>Signup</a></li>
+						<li id='signup'><a id="header-a" class="signup" href='<?php echo $realPath ?>/user/register/'>Signup</a></li>
 						<li id='login'><a id="header-a" href='<?php echo $realPath ?>/user/login/'>Login</a></li>
 				<?php } else { ?>
 						<li class="profile-header-dropdown">

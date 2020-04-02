@@ -42,8 +42,12 @@
 		
 		<div id="statistics-panel">
 			<div class="stat-item">
-				<h3>0</h3>
+				<h3>2</h3>
 				<h4>projects</h4>
+			</div>
+			<div class="stat-item">
+				<h3>0</h3>
+				<h4>downloads</h4>
 			</div>
 			<div class="stat-item">
 				<h3><?php echo $_SESSION['stats']['code_lines'] ?></h3>

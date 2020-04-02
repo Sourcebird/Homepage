@@ -15,16 +15,6 @@ if (isset($_GET['project_id'])) {
 		$_GET[$key] = _cleaninjections(trim($value));
 	} 
 
-	/* -------------------------------------------------------------------------------
-	*   Verifying CSRF token
-
-	if (!verify_csrf_token()){
-
-		$_SESSION['STATUS']['signupstatus'] = 'Request could not be validated';
-		header("Location: ../");
-		exit();
-	}*/
-
 	$project_id = intval($_GET['project_id']);
 
 	$sql = "SELECT * FROM projects WHERE id=?;";
@@ -51,20 +41,12 @@ if (isset($_GET['project_id'])) {
 				"short_description" => $row['short_description'],
 				"title" => $row['title'],
 				"long_description" => $row['long_description'],
-				"project_title" => $row['project_title'],
 				"updated_at" => $row['updated_at'],
 				"created_at" => $row['created_at'],
 			);
 
 
 		
-
-?>
-<!--
-<div style="background-color: red; width: 100%; height: 100px"></div>-->
-
-<?php
-// FOR DEBUGGING ONLY!
 
 ?>
 
@@ -80,7 +62,7 @@ if (isset($_GET['project_id'])) {
 	</head>
 
 	<!------------- BODY ------------->
-	<body">
+	<body>
 		
 		<main class="project-page">
 			<div class="div-wrapper head-div">
@@ -103,7 +85,7 @@ if (isset($_GET['project_id'])) {
 				</div>
 				<div class="quicknav-item">
 					<h3>Direct Download</h3>
-					<a href="https://github.com/Sourcebird/Homepage">SourceBird/Homepage</a>
+					<a href="https://github.com/Sourcebird/Homepage">Download v.X.x</a>
 				</div>
 			</div>
 

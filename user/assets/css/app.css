@@ -31,13 +31,34 @@ body {
 }
 
 .form-auth input[type="email"] {
-    margin-bottom: -1px;
-}
-
-.form-auth input[type="password"] {
     margin-bottom: 10px;
 }
 
+.form-auth input[type="password"] {
+    margin-bottom: -1px;
+}
+
+.form-auth textarea {
+    width: 260px;
+    min-height: 40px;
+    max-height: 250px;
+    resize: vertical;
+    padding: 10px;
+}
+
+.paddingtop15 {
+    padding-top: 15px;
+}
+
+.seperator {
+    width: 360px;
+}
+
+.textspan {
+    color: #494949;
+    font-family: "open-sans", sans-serif;
+    padding-top: 5px;
+}
 
 /* --------------User Image Upload---------------------- */
 
