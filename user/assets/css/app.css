@@ -44,6 +44,12 @@ body {
     max-height: 250px;
     resize: vertical;
     padding: 10px;
+
+    appearance: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+	-o-appearance: none;
 }
 
 .paddingtop15 {
